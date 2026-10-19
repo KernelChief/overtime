@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.db
+*.db-journal
+.venv/
+venv/
+.idea/
+.pytest_cache/
+.DS_Store
+.remember/
