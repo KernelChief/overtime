@@ -227,9 +227,3 @@ make one yourself.
 | Update seems stuck or reverted | `pct exec <ctid> -- journalctl -t app-update -n 20`, a failed update automatically rolls back and won't be retried until you push something different. |
 
 ---
-
-## 🗺️ Roadmap
-
-- [x] Public AlmaLinux LXC script, see `ct/`
-- [x] pytest suite covering accounts, companies/entries, and the hour-bank guard rails, see `tests/`
-- [ ] CI: lint + the test suite on push
